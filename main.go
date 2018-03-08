@@ -14,9 +14,9 @@ import (
 
 // Model for a TODO
 type TODO struct {
-	Id 			int			`json:"id"`
-	Done	 	bool		`json:"done"`
-	Text		string	`json:"text"`
+	Id int `json:"id"`
+	Done bool `json:"done"`
+	Text string `json:"text"`
 }
 
 // In-memory data store
@@ -91,9 +91,9 @@ func main() {
 	// Initialize gin with default middleware
 	r := gin.Default()
 	// Attach routes to REST methods and CRUD actions on our TODO's
-	r.POST("/", 	create)
-	r.GET("/", 		read)
-	r.PUT("/", 		update)
+	r.POST("/", create)
+	r.GET("/", read)
+	r.PUT("/", update)
 	r.DELETE("/", delete)
 	// Listen on port 1337
 	r.Run(":1337")
