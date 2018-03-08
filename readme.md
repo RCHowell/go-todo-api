@@ -23,4 +23,4 @@ This server has four methods to interact with TODOs. TODOs are stored in memmory
 ## Running
 1. Install go
 2. Get some gin: `go get github.com/gin-gonic/gin`
-3. Run main: `go run main` OR `go build && ./go-todo-api`
+3. Run main: `go run main.go` OR `go build && ./go-todo-api`
