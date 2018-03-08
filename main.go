@@ -1,6 +1,6 @@
 // R. Conner Howell - 2018
 // --------------------------------
-//	TODO REST API Implemented in Go
+// TODO REST API Implemented in Go
 // --------------------------------
 
 package main
