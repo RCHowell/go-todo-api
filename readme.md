@@ -1,6 +1,6 @@
 # TODOs REST API
 
-This server has four methods to interact with TODOs. TODOs are stored in memmory in a slice. See code comments for why I chose a slice. (A new version may include a map)...
+This server has four methods to interact with TODOs. TODOs are stored in memmory using a map.
 
 ## Methods
 
